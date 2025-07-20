@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "52d165f0-f53f-4513-861e-974ab22fb3d3",
-		"name": "API Nadia Store",
+		"name": "API vstra Store",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "27215377",
 		"_collection_link": "https://www.postman.com/winter-rocket-952075/workspace/api-hesda-store/collection/27215377-52d165f0-f53f-4513-861e-974ab22fb3d3?action=share&source=collection_link&creator=27215377"
@@ -31,7 +31,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/saldo?nadiastore={{key_anda}}",
+							"raw": "https://api.melinda-store.my.id/v2/saldo?vstrastore={{key_anda}}",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -45,7 +45,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"description": "key akun anda"
 								}
@@ -191,7 +191,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/list_paket?nadiastore={{key_anda}}&jenis=nonotp",
+							"raw": "https://api.melinda-store.my.id/v2/list_paket?vstrastore={{key_anda}}&jenis=nonotp",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -205,7 +205,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"description": "key anda"
 								},
@@ -319,7 +319,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/list_paket?nadiastore={{key_anda}}&jenis=otp",
+							"raw": "https://api.melinda-store.my.id/v2/list_paket?vstrastore={{key_anda}}&jenis=otp",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -333,7 +333,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"description": "key anda"
 								},
@@ -447,7 +447,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/list_paket?nadiastore={{key_anda}}&jenis=unreg",
+							"raw": "https://api.melinda-store.my.id/v2/list_paket?vstrastore={{key_anda}}&jenis=unreg",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -461,7 +461,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"description": "key anda"
 								},
@@ -612,7 +612,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/detail_paket?nadiastore={{key_anda}}&access_token=815783:214e6936-bcca-428f-81fb-347a95e00s",
+							"raw": "https://api.melinda-store.my.id/v2/detail_paket?vstrastore={{key_anda}}&access_token=815783:214e6936-bcca-428f-81fb-347a95e00s",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -626,7 +626,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}"
 								},
 								{
@@ -774,7 +774,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/cek_stok_akrab?nadiastore={{key_anda}}",
+							"raw": "https://api.melinda-store.my.id/v2/cek_stok_akrab?vstrastore={{key_anda}}",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -788,7 +788,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"description": "ganti value dengan key anda"
 								}
@@ -900,7 +900,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -1235,7 +1235,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "key_anda",
 									"type": "text"
 								},
@@ -1410,7 +1410,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -1889,7 +1889,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/cekStatus?nadiastore={{key_anda}}&trx_id=ZePOY0jgJK-YzYzYUVKMXRLVW5KSVNTZlRjSzNBQQ-1742135411-YKQdIrNXeu",
+							"raw": "https://api.melinda-store.my.id/v2/cekStatus?vstrastore={{key_anda}}&trx_id=ZePOY0jgJK-YzYzYUVKMXRLVW5KSVNTZlRjSzNBQQ-1742135411-YKQdIrNXeu",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -1903,7 +1903,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}"
 								},
 								{
@@ -2256,7 +2256,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"description": "key anda",
 									"type": "text"
@@ -2512,7 +2512,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -2678,7 +2678,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/cek_sesi_login?nadiastore={{key_anda}}&no_hp=087762883268",
+							"raw": "https://api.melinda-store.my.id/v2/cek_sesi_login?vstrastore={{key_anda}}&no_hp=087762883268",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2692,7 +2692,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}"
 								},
 								{
@@ -2946,7 +2946,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/list_paket?nadiastore={{key_anda}}&jenis=bes",
+							"raw": "https://api.melinda-store.my.id/v2/list_paket?vstrastore={{key_anda}}&jenis=bes",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -2960,7 +2960,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}"
 								},
 								{
@@ -3121,7 +3121,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "key_anda",
 									"type": "text"
 								},
@@ -3242,7 +3242,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/akrab/pengelola?nadiastore=key anda",
+							"raw": "https://api.melinda-store.my.id/v2/akrab/pengelola?vstrastore=key anda",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -3257,7 +3257,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "key anda",
 									"description": "API key anda"
 								}
@@ -3326,7 +3326,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -3427,7 +3427,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/akrab/detailPengelola?nadiastore=keyanda&parent_msisdn=087883296424",
+							"raw": "https://api.melinda-store.my.id/v2/akrab/detailPengelola?vstrastore=keyanda&parent_msisdn=087883296424",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -3442,7 +3442,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "keyanda"
 								},
 								{
@@ -3525,7 +3525,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -3718,7 +3718,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/akrab/cekKuota?nadiastore=keyanda&parent_msisdn=6287883296922&family_member_id_invited=MJWh0rPIRVvwenAb5q0LuAqR2K2xO0%2BiCbqPqcwQhPNiflN9k8ODj7uA6nySDDgcoFxT%2FI2CEhOh4h%2Fx8RHRqTlqiX%2FLJNZ3dd7ZBj6Qvn6jmktH%2BM48h5NYcr8nxE4dn2l%2FuiSDUvAIkB7aTo6UtGBdD4YnoU7OP5lam910LDE%3D",
+							"raw": "https://api.melinda-store.my.id/v2/akrab/cekKuota?vstrastore=keyanda&parent_msisdn=6287883296922&family_member_id_invited=MJWh0rPIRVvwenAb5q0LuAqR2K2xO0%2BiCbqPqcwQhPNiflN9k8ODj7uA6nySDDgcoFxT%2FI2CEhOh4h%2Fx8RHRqTlqiX%2FLJNZ3dd7ZBj6Qvn6jmktH%2BM48h5NYcr8nxE4dn2l%2FuiSDUvAIkB7aTo6UtGBdD4YnoU7OP5lam910LDE%3D",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -3733,7 +3733,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "keyanda"
 								},
 								{
@@ -3822,7 +3822,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -3915,7 +3915,7 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "nadiastore",
+								"key": "vstrastore",
 								"value": "{{key_anda}}",
 								"description": "API Key anda",
 								"type": "text"
@@ -4005,7 +4005,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "vstrastore",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
