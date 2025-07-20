@@ -1,4 +1,4 @@
-🌐  API Melinda Store
+🌐  API WEB INJECT
 
 ✅ Auth Basic Menggunakan Email & Password
 ✅ Menggunakan Apikey Yang Didapat Dari Admin

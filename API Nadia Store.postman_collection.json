@@ -1,10 +1,10 @@
 {
 	"info": {
 		"_postman_id": "52d165f0-f53f-4513-861e-974ab22fb3d3",
-		"name": "API Nadia Store",
+		"name": "API VSTRA",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "27215377",
-		"_collection_link": "https://www.postman.com/winter-rocket-952075/workspace/api-hesda-store/collection/27215377-52d165f0-f53f-4513-861e-974ab22fb3d3?action=share&source=collection_link&creator=27215377"
+		"_collection_link": "https://www.postman.com/winter-rocket-952075/workspace/api-hesda-/collection/27215377-52d165f0-f53f-4513-861e-974ab22fb3d3?action=share&source=collection_link&creator=27215377"
 	},
 	"item": [
 		{
@@ -31,11 +31,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/saldo?nadiastore={{key_anda}}",
+							"raw": "https://api.VSTRA.my.id/v2/saldo?VSTRA={{key_anda}}",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -45,7 +45,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"description": "key akun anda"
 								}
@@ -59,11 +59,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/saldo?hesdastore=key_anda",
+									"raw": "https://api.hesda-.com/v2/saldo?hesda=key_anda",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -72,7 +72,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "key_anda",
 											"description": "key akun anda"
 										}
@@ -109,7 +109,7 @@
 								},
 								{
 									"key": "cache-control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "pragma",
@@ -191,11 +191,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/list_paket?nadiastore={{key_anda}}&jenis=nonotp",
+							"raw": "https://api.VSTRA.my.id/v2/list_paket?VSTRA={{key_anda}}&jenis=nonotp",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -205,7 +205,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"description": "key anda"
 								},
@@ -224,11 +224,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/list_paket?hesdastore={{key_anda}}&jenis=nonotp",
+									"raw": "https://api.hesda-.com/v2/list_paket?hesda={{key_anda}}&jenis=nonotp",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -237,7 +237,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}"
 										},
 										{
@@ -270,7 +270,7 @@
 								},
 								{
 									"key": "Cache-Control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "Pragma",
@@ -319,11 +319,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/list_paket?nadiastore={{key_anda}}&jenis=otp",
+							"raw": "https://api.VSTRA.my.id/v2/list_paket?VSTRA={{key_anda}}&jenis=otp",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -333,7 +333,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"description": "key anda"
 								},
@@ -352,11 +352,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/list_paket?hesdastore={{key_anda}}&jenis=otp",
+									"raw": "https://api.hesda-.com/v2/list_paket?hesda={{key_anda}}&jenis=otp",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -365,7 +365,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}"
 										},
 										{
@@ -398,7 +398,7 @@
 								},
 								{
 									"key": "Cache-Control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "Pragma",
@@ -422,7 +422,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"status\": true,\n    \"message\": \"Data ditemukan\",\n    \"data\": [\n        {\n            \"package_code\": \"XL1PSUPER\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"? [SEDANG RESTOK] XUTS PROMO Xtra Unlimited Turbo Super Promo All in One Terima Jadi\",\n            \"package_description_show\": \"? <b>Xtra Unlimited Turbo Super untuk akses LINE, Gojek, Facebook, dan Instagram secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.</b>\\r\\n❗ Pastikan Tidak Ada Xtra Combo Apapun Kecuali Flex, Wajib Cek Vial Dial *808# > Info > Info Kartu Xl-ku > Stop Langganan. Unreg Sampai Bersih Dari Berbau Xtra Combo dan Hotrod.\\r\\n⚠️ Jika Di Kartu Kalian Masih Ada Paket Xtra Combo, Hotrod & Xtra Unlimited Turbo, Maka Akan Kami Unreg.\\r\\n? Selama Status Transaksi Masih Pending Jangan Belikan Paket Apapun Dahulu\\r\\n✅ Harus Sabar Menunggu Maksimal 2 Jam Dari Sistemnya XL, Jika Status Sukses Maka Akan Diubah Oleh Sistem Ke Transaksi Sukses.\\r\\n✅ Pasang Kartu Xl Kalian Ke Modem/hp Yang Akan Dipakai Untuk Inject Vpn.\\r\\n✅ Abaikan Notif Sms Yang Masuk.\\r\\n✅ No Garansi Paket Masuk Done\",\n            \"metode\": 2,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 16000,\n            \"harga\": \"Rp. 16.000\",\n            \"package_id\": \"L2FEdVMxQnF4R1R0c21OSWpKaE16UQ\",\n            \"payment_method\": []\n        },\n        {\n            \"package_code\": \"XCSXUTP\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"? [SEDANG RESTOK] XUTP PROMO Xtra Unlimited Turbo Premium Promo All in One Terima Jadi\",\n            \"package_description_show\": \"? <b>Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook, Instagram, dan YouTube secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.</b>\\r\\n❗ Pastikan Tidak Ada Xtra Combo Apapun Kecuali Flex, Wajib Cek Vial Dial *808# > Info > Info Kartu Xl-ku > Stop Langganan. Unreg Sampai Bersih Dari Berbau Xtra Combo dan Hotrod.\\r\\n⚠️ Jika Di Kartu Kalian Masih Ada Paket Xtra Combo, Hotrod & Xtra Unlimited Turbo, Maka Akan Kami Unreg.\\r\\n? Selama Status Transaksi Masih Pending Jangan Belikan Paket Apapun Dahulu\\r\\n✅ Harus Sabar Menunggu Maksimal 2 Jam Dari Sistemnya XL, Jika Status Sukses Maka Akan Diubah Oleh Sistem Ke Transaksi Sukses.\\r\\n✅ Pasang Kartu Xl Kalian Ke Modem/hp Yang Akan Dipakai Untuk Inject Vpn.\\r\\n✅ Abaikan Notif Sms Yang Masuk.\\r\\n✅ No Garansi Paket Masuk Done\",\n            \"metode\": 2,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 21000,\n            \"harga\": \"Rp. 21.000\",\n            \"package_id\": \"Q2RNaS9xSWJCTHNWOWRxTXpZY294QQ\",\n            \"payment_method\": []\n        },\n        {\n            \"package_code\": \"TESTPAKET\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"TESTPAKET\",\n            \"package_description_show\": \"TESTPAKET\",\n            \"metode\": 2,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"WTZJdTgvM1hhRktLZVNpU01lVFNidw\",\n            \"payment_method\": []\n        },\n        {\n            \"package_code\": \"XL_XC1PLUS1DISC_EWALLET\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo 1GB + 1GB YouTube Diskon Bisa Buat Gandengan V1 Addon Xtra Combo Unlimited Turbo Super - Metode DANA/Qris\",\n            \"package_description_show\": \"? XL Xtra Combo 1+1GB / 30 Hari Diskom\\r\\n✅ Bisa di Pake Buat Gandengan V1 Addon Xtra Combo Unlimited Turbo Super\\r\\n? Sediakan saldo E-wallet Qris/DAN Rp12.500\\r\\n✅ Terdapat fee/biaya Admin \",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"UW96MVRMQXlQUnlCY2ZRZWFNVzZRQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XL_XC1PLUS1DISC_PULSA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo 1GB + 1GB YouTube Diskon Bisa Buat Gandengan V1 Addon Xtra Combo Unlimited Turbo Super - Metode Pulsa\",\n            \"package_description_show\": \"? XL Xtra Combo 1+1GB / 30 Hari Diskom\\r\\n✅ Bisa di Pake Buat Gandengan V1 Addon Xtra Combo Unlimited Turbo Super\\r\\n? Sediakan Pulsa di Nomor Tujuan Rp12.500\\r\\n✅ Terdapat fee/biaya Admin\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"Ym1TV3NHVWxDTWsrL2pwRmJiTk1hUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"AKRAB_L75_PENGELOLA_DANA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Akrab L Kuber 75GB dan Bonus Paket Akrab untuk 3 Anggota 30 Hari - Metode QRIS/DANA\",\n            \"package_description_show\": \"• PENGELOLA AKRAB L\\r\\n• Sediakan Saldo E-wallet Dana Minimal Rp. 140.000\\r\\n• Jangan ada Paket Akrab/Bonus Paket Akrab Saat Aktivasi Kalau Gak Mau Ngebug/Error\\r\\n• AKRAB L PENGELOLA\\r\\n• <b>Area 1 ➢ 75GB+8GB</b>\\r\\n• <b>Area 2 ➢ 75GB+8GB+2GB</b>\\r\\n• <b>Area 3 ➢ 75GB+8GB+2GB+5GB</b>\\r\\n• <b>Area 4 ➢ 75GB+8GB+2GB+5GB+10GB</b>\\r\\n• Cek area kamu di: https://hesda-store.com/user/sidompul\\r\\n• Tidak wajib ada pulsa.\\r\\n• PAKET XL\\r\\n• Membeli = setuju.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 3000,\n            \"harga\": \"Rp. 3.000\",\n            \"package_id\": \"cWtSZ25Db2o0SFhpQmZVbW5kTDVhUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"AKRAB_L75_PENGELOLA_PULSA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Akrab L Kuber 75GB dan Bonus Paket Akrab untuk 3 Anggota 30 Hari - Metode Pulsa\",\n            \"package_description_show\": \"• PENGELOLA AKRAB L\\r\\n• Sediakan Pulsa di Nomor Minimal Rp. 140.000\\r\\n• Jangan ada Paket Akrab/Bonus Paket Akrab Saat Aktivasi Kalau Gak Mau Ngebug/Error\\r\\n• AKRAB L PENGELOLA\\r\\n• <b>Area 1 ➢ 75GB+8GB</b>\\r\\n• <b>Area 2 ➢ 75GB+8GB+2GB</b>\\r\\n• <b>Area 3 ➢ 75GB+8GB+2GB+5GB</b>\\r\\n• <b>Area 4 ➢ 75GB+8GB+2GB+5GB+10GB</b>\\r\\n• Cek area kamu di: https://hesda-store.com/user/sidompul\\r\\n• PAKET XL\\r\\n• Membeli = setuju.\\r\\n• BISA DI MULTI TRX 02.00-06.00 Agar dapat Bonus Myreward\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 3000,\n            \"harga\": \"Rp. 3.000\",\n            \"package_id\": \"R1h0Z1MzQndaYy9xNVdKOW1DQW1jQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"BELI_SLOT_AKRAB_BARU\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Unlock Slot Akrab Baru\",\n            \"package_description_show\": \"• Alternatif cara buat beli slot Tambahan Pengelola Paket Akrab tanpa membuka aplikasi MyXL.\\r\\n• <b>Sediakan Pulsa Minimal Rp20.000</b>\\r\\n• <b>Gunakan Bagi Yang Tahu Tahu Saja</b>\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"SmZyN0VVRUFEQzh4Z081M2Q2Tkt1Zw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"c03be70fb3523ac2ac440966d3a5920e\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Special 8GB Diskon - Metode DANA/Qris\",\n            \"package_description_show\": \"‼️ <b>Nama Paket Xtra Combo Special 8 GB</b>\\r\\n• <b> XL Xtra Combo Special Up to 8 GB tergantung Area 30 Hari Diskon</b>\\r\\n• <mark>Kuota yang didapat Random Sesuai Area 1GB-8GB</mark>\\r\\n• Dapat digunakan untuk syarat aktivasi Paket XL Unlimited Turbo dll\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 16.850</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"UlI3QnJvVFFGNzByTnAyODhqMXcyUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"bdb392a7aa12b21851960b7e7d54af2c\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Special 8GB Diskon - Metode Pulsa\",\n            \"package_description_show\": \"‼️ <b>Nama Paket Xtra Combo Special 8 GB</b>\\r\\n• <b> XL Xtra Combo Special Up to 8 GB tergantung Area 30 Hari Diskon</b>\\r\\n• <mark>Kuota yang didapat Random Sesuai Area 1GB-8GB</mark>\\r\\n• Dapat digunakan untuk syarat aktivasi Paket XL Unlimited Turbo dll\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Sediakan Pulsa di Nomor Tujuan <mark>Rp. 16.850</mark>\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"T2pZYUpodHlxa2VldW91MUt0cVRHQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"3885e70df05fff67dddc3c29adeb485c\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Special 14GB Diskon - Metode DANA/Qris\",\n            \"package_description_show\": \"‼️ <b>Nama Paket Xtra Combo Special 14 GB</b>\\r\\n• <b> XL Xtra Combo Special Up to 14 GB tergantung Area 30 Hari Diskon</b>\\r\\n• <mark>Kuota yang didapat Random Sesuai Area 1GB-14GB</mark>\\r\\n• Dapat digunakan untuk syarat aktivasi Paket XL Unlimited Turbo dll\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 21.500</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 4500,\n            \"harga\": \"Rp. 4.500\",\n            \"package_id\": \"N1g3S0dSYUFzenVCVVd0dFZ2U3lndw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"8da735b24b39aacc7edc29a7c2226f4a\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Special 14GB Diskon - Metode Pulsa\",\n            \"package_description_show\": \"‼️ <b>Nama Paket Xtra Combo Special 14 GB</b>\\r\\n• <b> XL Xtra Combo Special Up to 14 GB tergantung Area 30 Hari Diskon</b>\\r\\n• <mark>Kuota yang didapat Random Sesuai Area 1GB-14GB</mark>\\r\\n• Dapat digunakan untuk syarat aktivasi Paket XL Unlimited Turbo dll\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Sediakan Pulsa di Nomor Tujuan <mark>Rp. 21.500</mark>\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 4500,\n            \"harga\": \"Rp. 4.500\",\n            \"package_id\": \"c05BOUF6UHppVEZSMjNVVkQ0dldlUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOBASICXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V1 Addon Xtra Combo Unlimited Turbo Basic Bisa Metode Reffund - Metode QRIS/DANA\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Xtra Unlimited Turbo Basic untuk akses LINE dan Gojek secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 10.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"c1dSQkU3U1hRNCtRSG1HQzNJNU9FQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOSTANDARDXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V1 Addon Xtra Combo Unlimited Turbo Standard Bisa Metode Reffund - Metode QRIS/DANA\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Xtra Unlimited Turbo Standard untuk akses LINE, Gojek, dan Facebook secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 20.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"RGlqWC9Pb0o1ZTV3TFNMbThFUGhyUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOSUPERXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V1 Addon Xtra Combo Unlimited Turbo Super Bisa Metode Reffund - Metode QRIS/DANA\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Xtra Unlimited Turbo Super untuk akses LINE, Gojek, Facebook, dan Instagram secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 30.000</mark> bisa QRIS/DANA\\r\\n\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"T01Ydk8zbWYzbkhDOFFqbXBXM21hQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOPREMIUMXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V1 Addon Xtra Combo Unlimited Turbo Premium Bisa Metode Reffund - Metode QRIS/DANA\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook, Instagram, dan YouTube secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n• Masa Aktif 30 Hari jika digabung dengan Xtra Combo Special yang dapat ditembak di web.\\r\\n• Sediakan saldo E-wallet Dana <mark>Rp50.00.</mark> Klik tombol Bayar ketika sudah Beli Paket.\\r\\n• FUP paket random, Jika terkena FUP Jika FUP  Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"a0hBcHVBejZqNllZWW9memdTcUt0UQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBONETFLIXXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V2 Addon Xtra Combo Unlimited Turbo Netflix Bisa Metode Reffund - Metode Dana/Qris\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Bisa Buat Trik Reffund\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 25.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"dXVnTG9SR0JpUC9pUVRLc1dPTTBpUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOVIUXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V2 Addon Unlimited Turbo Viu untuk Xtra Combo Bisa Metode Reffund - Metode Dana/Qris\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 25.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"eW14MHdjem9Nc1lBYmtidGtyS2d4Zw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOJOOXXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V2 Addon Xtra Combo Unlimited Turbo Joox Bisa Metode Reffund - Metode Dana/Qris\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 10.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"SGRNN2d5ZnBXMDlFYlNRZ3psakZkUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOTIKTOKXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V2 Addon Xtra Unlimited Turbo TikTok untuk Xtra Combo Bisa Metode Reffund - Metode Qris/Dana\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>o\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 25.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"ZDRHc3JDVFFETWpiRzdBUEl6ZkEzdw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHBASIC7H\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V3 Unlimited Turbo Basic Bisa Gandeng Xtra Combo Special atau Hotrod Bisa Metode Reffund - Metode DANA/QRIS\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan saldo E-wallet Rp.500\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"Y1VHUkhld0dZUUluT0d0VkJHdUp5QQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHSTANDARD7H\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V3 Unlimited Turbo Standard Bisa Gandeng Xtra Combo Special atau Hotrod Bisa Metode Reffund - Metode DANA/QRIS\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek dan Facebook secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan saldo E-wallet Rp.3.000\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"d1FUOWdCdklQcVVpeWtrajduWmRZUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHSUPER7H\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V3 Unlimited Turbo Super Bisa Gandeng Xtra Combo Special atau Hotrod Bisa Metode Reffund - Metode DANA/QRIS\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook dan Instagram secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan saldo E-wallet Rp.8.500\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"MCtPK1g3dG1uRS9tNDhxQlIwSnJSUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHPREMIUM7H\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V3 Unlimited Turbo Premium Bisa Gandeng Xtra Combo Special atau Hotrod Bisa Metode Reffund - Metode QRIS/DANA\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook, Instagram, dan YouTube  secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan saldo E-wallet Rp.13.500\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"UFJLOTl6TkNiT3poY2VYd2tTbStldw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHBASIC7H_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Unlimited Turbo Basic Bisa Gandeng Xtra Combo Special atau Hotrod - Metode Pulsa\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan Pulsa Rp.500. Akan Terpotong\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"bStlR1JhcUkrZzlhYmdURWRMNUlaQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHSTANDARD7H_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Unlimited Turbo Standard Bisa Gandeng Xtra Combo Special atau Hotrod - Metode PULSA\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan Pulsa Rp.3.000. Akan Terpotong\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"VWM1ZWF0Nk1GQW9MRTEyajJnWFcrdw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHSUPER7H_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Unlimited Turbo Super Bisa Gandeng Xtra Combo Special atau Hotrod - Metode PULSA\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook, dan Instagram secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan Pulsa Rp.8.500. Akan Terpotong\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"cldEcVNPYytBQTUzbm02QTJ4YmdaQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHPREMIUM7H_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Unlimited Turbo Premium Bisa Gandeng Xtra Combo Special atau Hotrod - Metode Pulsa\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook, Instagram dan YouTube secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan Pulsa Rp.13.500. Akan Terpotong\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"N3IvV0NHUEtNUzV6ZlNYR0l0MTNuUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOTIKTOK_PULSA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo TikTok Bisa Langsung Beli Tanpa Gandeng - Metode Pulsa\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO TIKTOK UNTUK AKSES TIKTOK KETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN PULSA MINIMAL RP. 25.000 AKAN TERPOTONG</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"dlZJSi9kRC85U2tuc3ZaQkVmc1lkQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOTIKTOK_DANA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo TikTok Bisa Langsung Beli Tanpa Gandeng - Metode Dana/Qris\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO TIKTOK UNTUK AKSES TIKTOKKETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN SALDO E-WALLETRP. 25.000 AKAN TERPOTONG</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"YmY5TmpGVGNUdUFROGN5QmFwNlcydw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOVIU_DANA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo Viu Bisa Langsung Beli Tanpa Gandeng - Metode QRIS/DANA\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO VIU UNTUK AKSES VIU KETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN SALDO E-WALLETRP. 25.000 AKAN TERPOTONG</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"RnZqRGdNcDE5Z1NOUEhYTnd3cStBUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOVIU_PULSA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo Viu Bisa Langsung Beli Tanpa Gandeng - Metode Pulsa\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO VIU UNTUK AKSES VIU KETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN PULSA MINIMAL RP. 25.000 AKAN TERPOTONG</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"Tm8vcWtGQ01Kc3h1dlFFdGZqQ3FzUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOVIDIO_DANA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo Vidio Bisa Langsung Beli Tanpa Gandeng - Metode DANA/Qris\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO VIDIO UNTUK AKSES VIDIO KETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN SALDO E-WALLET 25.000 BISA QRIS/DANA</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"ZVdMVXcyKzdJRlJERVdJc1hpVUhmQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOVIDIO_PULSA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo Vidio Bisa Langsung Beli Tanpa Gandeng - Metode PULSA\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO VIDIO UNTUK AKSES VIDIO KETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN PULSA MINIMAL RP. 25.000 AKAN TERPOTONG</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"MTJLR28vN3VpUmxObFdHelZwRnVUUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOYOUTUBEXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo YouTube untuk Xtra Combo Bisa Langsung Beli Tanpa Gandeng - Metode Qris/DANA\\r\\n\",\n            \"package_description_show\": \"• <b>Bisa Langsung dibeli Tanpa Gandeng</b>\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Sediakan saldo E-wallet Rp25.000\\r\\n• <b>Terdapat Fee Web</b>\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"c1JVVi9BSlQwUGdFYXllOC9lc3dCZw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"6b699877e423e526d8c2502f48ba0a1d\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Flex S Promo - Metode DANA/QRIS\",\n            \"package_description_show\": \"•  Xtra Combo Flex S disc/versi murah.\\r\\n•  Sediakan saldo E-Wallet Dana Rp16.000 (akan terpotong segini)\\r\\n•  Jangan ada Paket Flex lainnya yang aktif.\\r\\n•  Terdapat fee/biaya Admin pembelian paket (tertera).\\r\\n•  Bisa dipakai untuk Claim Addon/Bonus Xtra Combo Flex.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"anNta2NTWEUxZ0h4NlNaZHpHY1pWdw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"97520d9ebea7d72cec0ae29e7b65e1fc\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Plus 10GB Unlimited Produktivitas Seperti Biz Cocok Buat Inject Unlimited - Metode QRIS/DANA\",\n            \"package_description_show\": \"• Xtra Combo Plus 10GB Unlimited Apps Produktivitas.\\r\\n• <mark>TANPA FUP Alias Unlimited Untuk Cocok User Inject VPN.</mark>\\r\\n• Tetap Unlimited walaupun sudah lewat 20GB.\\r\\n• Kartu jangan posisi masa tenggang saat ditembak.\\r\\n• Bisa juga untuk syarat bonus Addon Xtra Combo Plus\\r\\n• Pastikan tidak ada paket Xtra Combo Plus yang aktif\\r\\n• Pastikan unreg via dial *808# > INFO > Info kartu xl ku > Stop Langganan > Unreg Semua Xtra Combo Plus.\\r\\n• Sediakan saldo E-wallet Rp64.000. Klik tombol Bayar/Scan ketika sudah Beli Paket.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 7000,\n            \"harga\": \"Rp. 7.000\",\n            \"package_id\": \"K0hrbEN6V0x2SlgwQzFqWnVtZGdFdw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"24072ce794a78f4c490f2b36678b085b\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Plus 10GB Unlimited Produktivitas Seperti Biz Cocok Buat Inject Unlimited- Metode Pulsa\",\n            \"package_description_show\": \"• Xtra Combo Plus 10GB Unlimited Apps Produktivitas.\\r\\n• <mark>TANPA FUP Alias Unlimited Untuk Cocok User Inject VPN.</mark>\\r\\n• Tetap Unlimited walaupun sudah lewat 20GB.\\r\\n• Kartu jangan posisi masa tenggang saat ditembak.\\r\\n• Bisa juga untuk syarat bonus Addon Xtra Combo Plus\\r\\n• Pastikan tidak ada paket Xtra Combo Plus yang aktif\\r\\n• Pastikan unreg via dial *808# > INFO > Info kartu xl ku > Stop Langganan > Unreg Semua Xtra Combo Plus.\\r\\n• Sediakan Pulsa Rp64.000 di Kartu.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 7000,\n            \"harga\": \"Rp. 7.000\",\n            \"package_id\": \"RERua1pEL20rWTY5Y29tV0xKc3J3QQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"62a49f0f7585e542fc195914ee11d2de\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Plus 5GB - Metode Qris/Dana\",\n            \"package_description_show\": \"• Cocok Untuk Syarat Bonus Addon Xtra Combo Plus\\r\\n•  Pastikan tidak ada paket Xtra Combo Plus yang sedang aktif di kartu XL kamu. Jika ada, unreg via dial *808#\\r\\n• Sediakan Saldo e-Wallet 28.000 (Akan terpotong segini). Klik tombol Bayar ketika sudah Beli Paket.\\r\\n•  Terdapat fee/biaya Admin\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"WE5Rc3ZGVC80MDB4WmN6YTFtb0NLZw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"cae84e917d1da32a00d20b388b1b883b\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Plus 5GB - Metode Pulsa\",\n            \"package_description_show\": \"• Cocok Untuk Syarat Bonus Addon Xtra Combo Plus\\r\\n•  Pastikan tidak ada paket Xtra Combo Plus yang sedang aktif di kartu XL kamu. Jika ada, unreg via dial *808#\\r\\n• Sediakan Pulsa 28.000 (Akan terpotong segini). Klik tombol Bayar ketika sudah Beli Paket.\\r\\n•  Terdapat fee/biaya Admin\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"VnpiSG0weVJ6WmNPWG42dzQ1LzNwZw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_WA_10GB_3K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus WhatsApp 10GB - Metode QRIS/DANA\",\n            \"package_description_show\": \"?  Bonus Kuota 10gb Whatsapp Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"Ykd5SG1kT0RSTXZXNVdBb0k2MWorUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_WA_10GB_3K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus WhatsApp 10GB - Metode Pulsa\",\n            \"package_description_show\": \"?  Bonus Kuota 10gb Whatsapp Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"SGNGc1E3Wm4xVWxxYnlRekRJaGdkUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_FB_10GB_3K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Facebook 10GB - Metode QRIS/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Facebook Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"a1JXZWRBVkMvdHRxd1VscXR4cXl3UQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_FB_10GB_3K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Facebook 10GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Facebook Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"RVNTVm1LY1pxQUdBcXlkYnJRUXJNdw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_IG_10GB_3K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Instagram 10GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Instagram Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"cE9rVCtlZnlsY28rbDF5Ykx5bk9idw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_IG_10GB_3K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Instagram 10GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Instagram Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"ajNVQWVUbTYwYUNHOWNlb203Y1Nydw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_TT_10GB_3K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus TikTok 10GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Tiktok Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"b1EwNGwvRld4dVZQSlZ2UFFtUmREUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_TT_10GB_3K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus TikTok 10GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Tiktok Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"aXorZ0RUTWw4THRhOGxkQ2E2Uy9Mdw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_WA_15GB_5K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Addon Bonus Kuota Xtra Combo Plus/VIP Plus WhatsApp 15GB - Metode QRIS/DANA\",\n            \"package_description_show\": \"?  Bonus Kuota 15gb Whatsapp Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"Zyt2OVNJdlFRVHRsWjBrTVZNSlZ1QQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_WA_15GB_5K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus WhatsApp 15GB - Metode Pulsa\",\n            \"package_description_show\": \"?  Bonus Kuota 15gb Whatsapp Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"elFnN1Z5UzVQQkpESjRlT1pLbHNidw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_FB_15GB_5K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Facebook 15GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Facebook Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"T1lTMllmanYySVpkYUlZMDhGRkQ0QQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_FB_15GB_5K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Facebook 15GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Facebook Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"WXVZUGVpL1VFaVJ2Zy9VdTRlbWhlUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_IG_15GB_5K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Instagram 15GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Instagram Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"eFlTdS9ZRW1VRnM3WVBuc2NseitrQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_IG_15GB_5K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Instagram 15GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Instagram Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"a09SekFubG1lNFdjQ3NHZDB0alFHQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_TT_15GB_5K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus TikTok 15GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Tiktok Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"ZldiT21pa21XSHFxM3p0L0NDekFudw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_TT_15GB_5K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus TikTok 15GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Tiktok Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"QjdLbmR2bFNqTUY1VkhGL2IyZmdZZw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_YT_15GB_5K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus YouTube 15GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 15gb YouTube Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"TUlHUi9uQVJzSS9rVU5BODd0bUxTUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_YT_15GB_5K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus YouTube 15GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb YouTube Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"ZnZBN2xnMVZ6OVFodGViOW0yUG1tQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_GAMES_15GB_7K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Games Mobile Legends, Free Fire, PUBG Masing\\\" 5GB - Metode e-Wallet\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Games Mobile Legends, Free Fire, PUBG Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"QjZ3K3l5K0c2TFdZdURyRStRT2U2Zw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_GAMES_15GB_7K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Games Mobile Legends, Free Fire, PUBG Masing\\\" 5GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Games Mobile Legends, Free Fire, PUBG Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"bHgzTFpaYnNXSGU3OURLVWJnQjhoUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_SOCMED_15GB_7K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Social Media Spotify, Instagram, TikTok Masing\\\" 5GB - Metode e-Wallet\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Social Media Spotify, Instagram, Tiktok Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"MkorL0tBOThDT3BTRC9SeWY4R20wQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_SOCMED_15GB_7K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Social Media Spotify, Instagram, TikTok Masing\\\" 5GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Social Media Spotify, Instagram, Tiktok Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"bUQ3NnlVVTM3dUtwNzdVNEFDUW5mZw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_STREAMING_15GB_7K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Streaming Iflix, Viu, YouTube Masing\\\" 5GB - Metode e-Wallet\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Social Media Iflix, Viu, YouTube Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"K25jRGYvL2ZGSngrbVpPL3FIVkNoZw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_STREAMING_15GB_7K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Streaming Iflix, Viu, YouTube Masing\\\" 5GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Social Media Iflix, Viu, YouTube Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"MmdZWGhuVjBEQ2IwNnpxT2h5bkxvQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ce6a05ce7c0b47b7cfb5412e58b6222f\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Xtra Combo Lite - YouTube, Facebook, Instagram FUP 190GB - DANA\",\n            \"package_description_show\": \"- Wajib punya paket Xtra Combo Lite.\\r\\n- Jika tidak bisa dibeli, silakan coba lagi terus dalam beberapa menit (harus sabar).\\r\\n- JIKA MASIH BELUM BISA DAN PEMBAYARAN ANDA DI-REFUND OLEH XL, CEK VIA DIAL *808# pergi ke menu Stop Paket/Langganan. Pastikan tidak ada paket Addon Combo Lite sebelumnya yang masih nyangkut. Jika ada, unreg dulu addonnya. Tidak bisa diunreg? Terpaksa ganti kartu lainnya. Mungkin untuk alternatif trik lainnya kamu bisa pakai paket xtra combo plus + Addon 22GB Vidio/FB/IG/YouTube (bisa dibeli sepuasnya).\\r\\n- Membutuhkan Saldo E-wallet Dana Rp6.000 (akan terpotong segini).\\r\\n- Klik tombol \\\"Bayar\\\" setelah beli paket.\\r\\n- Tidak bisa digabung dengan Addon Xtra Combo Lite varian lainnya, harap unreg dulu via dial *808# jika ada.\\r\\n- Masa aktif paket ini akan mengikuti sisa masa aktif paket Xtra Combo Lite saat ini.\\r\\n- FUP 190GB. Tidak dapat diakumulasi. Jika kamu membelinya ulang sebelum FUP habis maka kuota FUP akan tereset ke posisi semula.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"R0tlSWZ4SmRhY0ozRGd5dURZS3lFQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"49d1e047f7fc09be77dcb1bb2d4393cd\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Xtra Combo Lite - Iflix, Facebook, Instagram FUP 190GB - DANA\",\n            \"package_description_show\": \"- Wajib punya paket Xtra Combo Lite.\\r\\n- Jika tidak bisa dibeli, silakan coba lagi terus dalam beberapa menit (harus sabar).\\r\\n- JIKA MASIH BELUM BISA DAN PEMBAYARAN ANDA DI-REFUND OLEH XL, CEK VIA DIAL *808# pergi ke menu Stop Paket/Langganan. Pastikan tidak ada paket Addon Combo Lite sebelumnya yang masih nyangkut. Jika ada, unreg dulu addonnya. Tidak bisa diunreg? Terpaksa ganti kartu lainnya. Mungkin untuk alternatif trik lainnya kamu bisa pakai paket xtra combo plus + Addon 22GB Vidio/FB/IG/YouTube (bisa dibeli sepuasnya).\\r\\n- Bisa untuk Inject SSH/VPN area Jabar, Banten, Jakarta, dan Sumatera ( Yang tau-tau aja :v )\\r\\n- Tidak bisa digabung dengan Addon Xtra Combo Lite varian lainnya, harap unreg dulu via dial *808# jika ada.\\r\\n- Membutuhkan Saldo E-wallet Dana Rp6.000 (akan terpotong segini).\\r\\n- Klik tombol \\\"Bayar\\\" setelah beli paket.\\r\\n- Masa aktif paket ini akan mengikuti sisa masa aktif paket Xtra Combo Lite saat ini.\\r\\n- FUP 190GB. Tidak dapat diakumulasi. Jika kamu membelinya ulang sebelum FUP habis maka kuota FUP akan tereset ke posisi semula.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"TjJJNFlsTjgrcDNKYlN1SW84L3FqQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"7edb228a26f1cdb8691d2fc23d75766e\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Xtra Combo Lite - Vidio, Facebook, Instagram FUP 190GB - DANA\",\n            \"package_description_show\": \"- Wajib punya paket Xtra Combo Lite.\\r\\n- Jika tidak bisa dibeli, silakan coba lagi terus dalam beberapa menit (harus sabar).\\r\\n- JIKA MASIH BELUM BISA DAN PEMBAYARAN ANDA DI-REFUND OLEH XL, CEK VIA DIAL *808# pergi ke menu Stop Paket/Langganan. Pastikan tidak ada paket Addon Combo Lite sebelumnya yang masih nyangkut. Jika ada, unreg dulu addonnya. Tidak bisa diunreg? Terpaksa ganti kartu lainnya. Mungkin untuk alternatif trik lainnya kamu bisa pakai paket xtra combo plus + Addon 22GB Vidio/FB/IG/YouTube (bisa dibeli sepuasnya).\\r\\n- Klik tombol \\\"Bayar\\\" setelah beli paket.\\r\\n- Bisa untuk Inject SSH/VPN ( Yang tau-tau aja :v )\\r\\n- Tidak bisa digabung dengan Addon Xtra Combo Lite varian lainnya, harap unreg dulu via dial *808# jika ada.\\r\\n- Membutuhkan Saldo E-wallet Dana Rp6.000 (akan terpotong segini).\\r\\n- Masa aktif paket ini akan mengikuti sisa masa aktif paket Xtra Combo Lite saat ini.\\r\\n- FUP 190GB. Tidak dapat diakumulasi. Jika kamu membelinya ulang sebelum FUP habis maka kuota FUP akan tereset ke posisi semula.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"OXpiUDBLZytXdDQ3R0l5aGlwRVladw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"dac06dd11e66ae88c09d43f8866ddd5e\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Xtra Combo Lite Viu, Facebook, Instagram FUP 190GB - DANA\",\n            \"package_description_show\": \"- <b>Wajib punya paket Xtra Combo Lite</b>.\\r\\n- Jika tidak bisa dibeli, silakan coba lagi terus dalam beberapa menit (harus sabar).\\r\\n- JIKA MASIH BELUM BISA DAN PEMBAYARAN ANDA DI-REFUND OLEH XL, CEK VIA DIAL *808# pergi ke menu Stop Paket/Langganan. Pastikan tidak ada paket Addon Combo Lite sebelumnya yang masih nyangkut. Jika ada, unreg dulu addonnya. Tidak bisa diunreg? Terpaksa ganti kartu lainnya. Mungkin untuk alternatif trik lainnya kamu bisa pakai paket xtra combo plus + Addon 22GB Vidio/FB/IG/YouTube (bisa dibeli sepuasnya).\\r\\n- Membutuhkan Saldo E-wallet Dana Rp6.000 (akan terpotong segini).\\r\\n- Klik tombol \\\"Bayar\\\" setelah beli paket.\\r\\n- Tidak bisa digabung dengan Addon Xtra Combo Lite varian lainnya, harap unreg dulu via dial *808# jika ada.\\r\\n- Masa aktif paket ini akan mengikuti sisa masa aktif paket Xtra Combo Lite saat ini.\\r\\n- FUP 190GB. Tidak dapat diakumulasi. Jika kamu membelinya ulang sebelum FUP habis maka kuota FUP akan tereset ke posisi semula.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"SG1rejY1UnBsTDh6TlZkNlhOOHp1dw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"e4b9610293057bf3bc0bc35288e22faa\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Xtra Combo Lite Netflix, Facebook, Instagram FUP 190GB - DANA\",\n            \"package_description_show\": \"- <b>Wajib punya paket Xtra Combo Lite</b>.\\r\\n- Jika tidak bisa dibeli, silakan coba lagi terus dalam beberapa menit (harus sabar).\\r\\n- JIKA MASIH BELUM BISA DAN PEMBAYARAN ANDA DI-REFUND OLEH XL, CEK VIA DIAL *808# pergi ke menu Stop Paket/Langganan. Pastikan tidak ada paket Addon Combo Lite sebelumnya yang masih nyangkut. Jika ada, unreg dulu addonnya. Tidak bisa diunreg? Terpaksa ganti kartu lainnya. Mungkin untuk alternatif trik lainnya kamu bisa pakai paket xtra combo plus + Addon 22GB Vidio/FB/IG/YouTube (bisa dibeli sepuasnya).\\r\\n- Membutuhkan Saldo E-wallet Dana Rp6.000 (akan terpotong segini).\\r\\n- Klik tombol \\\"Bayar\\\" setelah beli paket.\\r\\n- Tidak bisa digabung dengan Addon Xtra Combo Lite varian lainnya, harap unreg dulu via dial *808# jika ada.\\r\\n- Masa aktif paket ini akan mengikuti sisa masa aktif paket Xtra Combo Lite saat ini.\\r\\n- FUP 190GB. Tidak dapat diakumulasi. Jika kamu membelinya ulang sebelum FUP habis maka kuota FUP akan tereset ke posisi semula.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"RXQ5V09yTWFqUDJubUZBaGpab1dZZw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        }\n    ]\n}"
+							"body": "{\n    \"status\": true,\n    \"message\": \"Data ditemukan\",\n    \"data\": [\n        {\n            \"package_code\": \"XL1PSUPER\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"? [SEDANG RESTOK] XUTS PROMO Xtra Unlimited Turbo Super Promo All in One Terima Jadi\",\n            \"package_description_show\": \"? <b>Xtra Unlimited Turbo Super untuk akses LINE, Gojek, Facebook, dan Instagram secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.</b>\\r\\n❗ Pastikan Tidak Ada Xtra Combo Apapun Kecuali Flex, Wajib Cek Vial Dial *808# > Info > Info Kartu Xl-ku > Stop Langganan. Unreg Sampai Bersih Dari Berbau Xtra Combo dan Hotrod.\\r\\n⚠️ Jika Di Kartu Kalian Masih Ada Paket Xtra Combo, Hotrod & Xtra Unlimited Turbo, Maka Akan Kami Unreg.\\r\\n? Selama Status Transaksi Masih Pending Jangan Belikan Paket Apapun Dahulu\\r\\n✅ Harus Sabar Menunggu Maksimal 2 Jam Dari Sistemnya XL, Jika Status Sukses Maka Akan Diubah Oleh Sistem Ke Transaksi Sukses.\\r\\n✅ Pasang Kartu Xl Kalian Ke Modem/hp Yang Akan Dipakai Untuk Inject Vpn.\\r\\n✅ Abaikan Notif Sms Yang Masuk.\\r\\n✅ No Garansi Paket Masuk Done\",\n            \"metode\": 2,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 16000,\n            \"harga\": \"Rp. 16.000\",\n            \"package_id\": \"L2FEdVMxQnF4R1R0c21OSWpKaE16UQ\",\n            \"payment_method\": []\n        },\n        {\n            \"package_code\": \"XCSXUTP\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"? [SEDANG RESTOK] XUTP PROMO Xtra Unlimited Turbo Premium Promo All in One Terima Jadi\",\n            \"package_description_show\": \"? <b>Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook, Instagram, dan YouTube secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.</b>\\r\\n❗ Pastikan Tidak Ada Xtra Combo Apapun Kecuali Flex, Wajib Cek Vial Dial *808# > Info > Info Kartu Xl-ku > Stop Langganan. Unreg Sampai Bersih Dari Berbau Xtra Combo dan Hotrod.\\r\\n⚠️ Jika Di Kartu Kalian Masih Ada Paket Xtra Combo, Hotrod & Xtra Unlimited Turbo, Maka Akan Kami Unreg.\\r\\n? Selama Status Transaksi Masih Pending Jangan Belikan Paket Apapun Dahulu\\r\\n✅ Harus Sabar Menunggu Maksimal 2 Jam Dari Sistemnya XL, Jika Status Sukses Maka Akan Diubah Oleh Sistem Ke Transaksi Sukses.\\r\\n✅ Pasang Kartu Xl Kalian Ke Modem/hp Yang Akan Dipakai Untuk Inject Vpn.\\r\\n✅ Abaikan Notif Sms Yang Masuk.\\r\\n✅ No Garansi Paket Masuk Done\",\n            \"metode\": 2,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 21000,\n            \"harga\": \"Rp. 21.000\",\n            \"package_id\": \"Q2RNaS9xSWJCTHNWOWRxTXpZY294QQ\",\n            \"payment_method\": []\n        },\n        {\n            \"package_code\": \"TESTPAKET\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"TESTPAKET\",\n            \"package_description_show\": \"TESTPAKET\",\n            \"metode\": 2,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"WTZJdTgvM1hhRktLZVNpU01lVFNidw\",\n            \"payment_method\": []\n        },\n        {\n            \"package_code\": \"XL_XC1PLUS1DISC_EWALLET\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo 1GB + 1GB YouTube Diskon Bisa Buat Gandengan V1 Addon Xtra Combo Unlimited Turbo Super - Metode DANA/Qris\",\n            \"package_description_show\": \"? XL Xtra Combo 1+1GB / 30 Hari Diskom\\r\\n✅ Bisa di Pake Buat Gandengan V1 Addon Xtra Combo Unlimited Turbo Super\\r\\n? Sediakan saldo E-wallet Qris/DAN Rp12.500\\r\\n✅ Terdapat fee/biaya Admin \",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"UW96MVRMQXlQUnlCY2ZRZWFNVzZRQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XL_XC1PLUS1DISC_PULSA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo 1GB + 1GB YouTube Diskon Bisa Buat Gandengan V1 Addon Xtra Combo Unlimited Turbo Super - Metode Pulsa\",\n            \"package_description_show\": \"? XL Xtra Combo 1+1GB / 30 Hari Diskom\\r\\n✅ Bisa di Pake Buat Gandengan V1 Addon Xtra Combo Unlimited Turbo Super\\r\\n? Sediakan Pulsa di Nomor Tujuan Rp12.500\\r\\n✅ Terdapat fee/biaya Admin\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"Ym1TV3NHVWxDTWsrL2pwRmJiTk1hUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"AKRAB_L75_PENGELOLA_DANA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Akrab L Kuber 75GB dan Bonus Paket Akrab untuk 3 Anggota 30 Hari - Metode QRIS/DANA\",\n            \"package_description_show\": \"• PENGELOLA AKRAB L\\r\\n• Sediakan Saldo E-wallet Dana Minimal Rp. 140.000\\r\\n• Jangan ada Paket Akrab/Bonus Paket Akrab Saat Aktivasi Kalau Gak Mau Ngebug/Error\\r\\n• AKRAB L PENGELOLA\\r\\n• <b>Area 1 ➢ 75GB+8GB</b>\\r\\n• <b>Area 2 ➢ 75GB+8GB+2GB</b>\\r\\n• <b>Area 3 ➢ 75GB+8GB+2GB+5GB</b>\\r\\n• <b>Area 4 ➢ 75GB+8GB+2GB+5GB+10GB</b>\\r\\n• Cek area kamu di: https://hesda-.com/user/sidompul\\r\\n• Tidak wajib ada pulsa.\\r\\n• PAKET XL\\r\\n• Membeli = setuju.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 3000,\n            \"harga\": \"Rp. 3.000\",\n            \"package_id\": \"cWtSZ25Db2o0SFhpQmZVbW5kTDVhUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"AKRAB_L75_PENGELOLA_PULSA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Akrab L Kuber 75GB dan Bonus Paket Akrab untuk 3 Anggota 30 Hari - Metode Pulsa\",\n            \"package_description_show\": \"• PENGELOLA AKRAB L\\r\\n• Sediakan Pulsa di Nomor Minimal Rp. 140.000\\r\\n• Jangan ada Paket Akrab/Bonus Paket Akrab Saat Aktivasi Kalau Gak Mau Ngebug/Error\\r\\n• AKRAB L PENGELOLA\\r\\n• <b>Area 1 ➢ 75GB+8GB</b>\\r\\n• <b>Area 2 ➢ 75GB+8GB+2GB</b>\\r\\n• <b>Area 3 ➢ 75GB+8GB+2GB+5GB</b>\\r\\n• <b>Area 4 ➢ 75GB+8GB+2GB+5GB+10GB</b>\\r\\n• Cek area kamu di: https://hesda-.com/user/sidompul\\r\\n• PAKET XL\\r\\n• Membeli = setuju.\\r\\n• BISA DI MULTI TRX 02.00-06.00 Agar dapat Bonus Myreward\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 3000,\n            \"harga\": \"Rp. 3.000\",\n            \"package_id\": \"R1h0Z1MzQndaYy9xNVdKOW1DQW1jQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"BELI_SLOT_AKRAB_BARU\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Unlock Slot Akrab Baru\",\n            \"package_description_show\": \"• Alternatif cara buat beli slot Tambahan Pengelola Paket Akrab tanpa membuka aplikasi MyXL.\\r\\n• <b>Sediakan Pulsa Minimal Rp20.000</b>\\r\\n• <b>Gunakan Bagi Yang Tahu Tahu Saja</b>\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"SmZyN0VVRUFEQzh4Z081M2Q2Tkt1Zw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"c03be70fb3523ac2ac440966d3a5920e\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Special 8GB Diskon - Metode DANA/Qris\",\n            \"package_description_show\": \"‼️ <b>Nama Paket Xtra Combo Special 8 GB</b>\\r\\n• <b> XL Xtra Combo Special Up to 8 GB tergantung Area 30 Hari Diskon</b>\\r\\n• <mark>Kuota yang didapat Random Sesuai Area 1GB-8GB</mark>\\r\\n• Dapat digunakan untuk syarat aktivasi Paket XL Unlimited Turbo dll\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 16.850</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"UlI3QnJvVFFGNzByTnAyODhqMXcyUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"bdb392a7aa12b21851960b7e7d54af2c\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Special 8GB Diskon - Metode Pulsa\",\n            \"package_description_show\": \"‼️ <b>Nama Paket Xtra Combo Special 8 GB</b>\\r\\n• <b> XL Xtra Combo Special Up to 8 GB tergantung Area 30 Hari Diskon</b>\\r\\n• <mark>Kuota yang didapat Random Sesuai Area 1GB-8GB</mark>\\r\\n• Dapat digunakan untuk syarat aktivasi Paket XL Unlimited Turbo dll\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Sediakan Pulsa di Nomor Tujuan <mark>Rp. 16.850</mark>\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"T2pZYUpodHlxa2VldW91MUt0cVRHQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"3885e70df05fff67dddc3c29adeb485c\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Special 14GB Diskon - Metode DANA/Qris\",\n            \"package_description_show\": \"‼️ <b>Nama Paket Xtra Combo Special 14 GB</b>\\r\\n• <b> XL Xtra Combo Special Up to 14 GB tergantung Area 30 Hari Diskon</b>\\r\\n• <mark>Kuota yang didapat Random Sesuai Area 1GB-14GB</mark>\\r\\n• Dapat digunakan untuk syarat aktivasi Paket XL Unlimited Turbo dll\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 21.500</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 4500,\n            \"harga\": \"Rp. 4.500\",\n            \"package_id\": \"N1g3S0dSYUFzenVCVVd0dFZ2U3lndw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"8da735b24b39aacc7edc29a7c2226f4a\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Special 14GB Diskon - Metode Pulsa\",\n            \"package_description_show\": \"‼️ <b>Nama Paket Xtra Combo Special 14 GB</b>\\r\\n• <b> XL Xtra Combo Special Up to 14 GB tergantung Area 30 Hari Diskon</b>\\r\\n• <mark>Kuota yang didapat Random Sesuai Area 1GB-14GB</mark>\\r\\n• Dapat digunakan untuk syarat aktivasi Paket XL Unlimited Turbo dll\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Sediakan Pulsa di Nomor Tujuan <mark>Rp. 21.500</mark>\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 4500,\n            \"harga\": \"Rp. 4.500\",\n            \"package_id\": \"c05BOUF6UHppVEZSMjNVVkQ0dldlUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOBASICXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V1 Addon Xtra Combo Unlimited Turbo Basic Bisa Metode Reffund - Metode QRIS/DANA\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Xtra Unlimited Turbo Basic untuk akses LINE dan Gojek secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 10.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"c1dSQkU3U1hRNCtRSG1HQzNJNU9FQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOSTANDARDXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V1 Addon Xtra Combo Unlimited Turbo Standard Bisa Metode Reffund - Metode QRIS/DANA\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Xtra Unlimited Turbo Standard untuk akses LINE, Gojek, dan Facebook secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 20.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"RGlqWC9Pb0o1ZTV3TFNMbThFUGhyUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOSUPERXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V1 Addon Xtra Combo Unlimited Turbo Super Bisa Metode Reffund - Metode QRIS/DANA\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Xtra Unlimited Turbo Super untuk akses LINE, Gojek, Facebook, dan Instagram secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 30.000</mark> bisa QRIS/DANA\\r\\n\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"T01Ydk8zbWYzbkhDOFFqbXBXM21hQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOPREMIUMXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V1 Addon Xtra Combo Unlimited Turbo Premium Bisa Metode Reffund - Metode QRIS/DANA\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook, Instagram, dan YouTube secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n• Masa Aktif 30 Hari jika digabung dengan Xtra Combo Special yang dapat ditembak di web.\\r\\n• Sediakan saldo E-wallet Dana <mark>Rp50.00.</mark> Klik tombol Bayar ketika sudah Beli Paket.\\r\\n• FUP paket random, Jika terkena FUP Jika FUP  Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"a0hBcHVBejZqNllZWW9memdTcUt0UQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBONETFLIXXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V2 Addon Xtra Combo Unlimited Turbo Netflix Bisa Metode Reffund - Metode Dana/Qris\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Bisa Buat Trik Reffund\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 25.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"dXVnTG9SR0JpUC9pUVRLc1dPTTBpUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOVIUXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V2 Addon Unlimited Turbo Viu untuk Xtra Combo Bisa Metode Reffund - Metode Dana/Qris\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 25.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"eW14MHdjem9Nc1lBYmtidGtyS2d4Zw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOJOOXXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V2 Addon Xtra Combo Unlimited Turbo Joox Bisa Metode Reffund - Metode Dana/Qris\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 10.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"SGRNN2d5ZnBXMDlFYlNRZ3psakZkUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOTIKTOKXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V2 Addon Xtra Unlimited Turbo TikTok untuk Xtra Combo Bisa Metode Reffund - Metode Qris/Dana\",\n            \"package_description_show\": \"• <b>Wajib Unreg Semua Paket Xtra Combo via *808*7*1*3#</b>o\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Siapkan Saldo e-Wallet  <mark>Rp. 25.000</mark> bisa QRIS/DANA\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"ZDRHc3JDVFFETWpiRzdBUEl6ZkEzdw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHBASIC7H\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V3 Unlimited Turbo Basic Bisa Gandeng Xtra Combo Special atau Hotrod Bisa Metode Reffund - Metode DANA/QRIS\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan saldo E-wallet Rp.500\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"Y1VHUkhld0dZUUluT0d0VkJHdUp5QQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHSTANDARD7H\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V3 Unlimited Turbo Standard Bisa Gandeng Xtra Combo Special atau Hotrod Bisa Metode Reffund - Metode DANA/QRIS\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek dan Facebook secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan saldo E-wallet Rp.3.000\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"d1FUOWdCdklQcVVpeWtrajduWmRZUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHSUPER7H\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V3 Unlimited Turbo Super Bisa Gandeng Xtra Combo Special atau Hotrod Bisa Metode Reffund - Metode DANA/QRIS\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook dan Instagram secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan saldo E-wallet Rp.8.500\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"MCtPK1g3dG1uRS9tNDhxQlIwSnJSUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHPREMIUM7H\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"V3 Unlimited Turbo Premium Bisa Gandeng Xtra Combo Special atau Hotrod Bisa Metode Reffund - Metode QRIS/DANA\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook, Instagram, dan YouTube  secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan saldo E-wallet Rp.13.500\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"UFJLOTl6TkNiT3poY2VYd2tTbStldw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHBASIC7H_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Unlimited Turbo Basic Bisa Gandeng Xtra Combo Special atau Hotrod - Metode Pulsa\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan Pulsa Rp.500. Akan Terpotong\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"bStlR1JhcUkrZzlhYmdURWRMNUlaQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHSTANDARD7H_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Unlimited Turbo Standard Bisa Gandeng Xtra Combo Special atau Hotrod - Metode PULSA\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan Pulsa Rp.3.000. Akan Terpotong\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"VWM1ZWF0Nk1GQW9MRTEyajJnWFcrdw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHSUPER7H_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Unlimited Turbo Super Bisa Gandeng Xtra Combo Special atau Hotrod - Metode PULSA\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook, dan Instagram secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan Pulsa Rp.8.500. Akan Terpotong\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"cldEcVNPYytBQTUzbm02QTJ4YmdaQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOHPREMIUM7H_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Unlimited Turbo Premium Bisa Gandeng Xtra Combo Special atau Hotrod - Metode Pulsa\",\n            \"package_description_show\": \"✅ Xtra Unlimited Turbo Premium untuk akses LINE, Gojek, Facebook, Instagram dan YouTube secara Unlimited dengan Kuota WhatsApp Harian 50MB/hari.\\r\\n? Masa Aktif 7 Hari mengikuti paket utama Xtra Hotrod 7 Hari Tetapi Bisa Menjadi Masa Aktif 30 Hari jika digabung dengan Paket Xtra Combo Special 8GB/14GB\\r\\n? Sediakan Pulsa Rp.13.500. Akan Terpotong\\r\\n? FUP paket random, Jika terkena FUP Jika FUP Solusinya bisa tembak ulang paket Xtra Unlimited Turbo ini maka FUP akan reset.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"N3IvV0NHUEtNUzV6ZlNYR0l0MTNuUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOTIKTOK_PULSA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo TikTok Bisa Langsung Beli Tanpa Gandeng - Metode Pulsa\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO TIKTOK UNTUK AKSES TIKTOK KETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN PULSA MINIMAL RP. 25.000 AKAN TERPOTONG</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"dlZJSi9kRC85U2tuc3ZaQkVmc1lkQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOTIKTOK_DANA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo TikTok Bisa Langsung Beli Tanpa Gandeng - Metode Dana/Qris\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO TIKTOK UNTUK AKSES TIKTOKKETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN SALDO E-WALLETRP. 25.000 AKAN TERPOTONG</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"YmY5TmpGVGNUdUFROGN5QmFwNlcydw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOVIU_DANA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo Viu Bisa Langsung Beli Tanpa Gandeng - Metode QRIS/DANA\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO VIU UNTUK AKSES VIU KETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN SALDO E-WALLETRP. 25.000 AKAN TERPOTONG</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"RnZqRGdNcDE5Z1NOUEhYTnd3cStBUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOVIU_PULSA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo Viu Bisa Langsung Beli Tanpa Gandeng - Metode Pulsa\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO VIU UNTUK AKSES VIU KETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN PULSA MINIMAL RP. 25.000 AKAN TERPOTONG</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"Tm8vcWtGQ01Kc3h1dlFFdGZqQ3FzUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOVIDIO_DANA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo Vidio Bisa Langsung Beli Tanpa Gandeng - Metode DANA/Qris\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO VIDIO UNTUK AKSES VIDIO KETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN SALDO E-WALLET 25.000 BISA QRIS/DANA</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"ZVdMVXcyKzdJRlJERVdJc1hpVUhmQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOVIDIO_PULSA\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo Vidio Bisa Langsung Beli Tanpa Gandeng - Metode PULSA\",\n            \"package_description_show\": \"• <b>BISA DIBELI TANPA GANDENG XCS </b>\\r\\n• XTRA UNLIMITED TURBO VIDIO UNTUK AKSES VIDIO KETIKA SEMUA KUOTA UTAMA PAKET HABIS.\\r\\n• MASA AKTIF 30 Hari\\r\\n• DAPAT DIPAKAI UNTUK INJECT VPN\\r\\n• FUP PAKET SEKITAR 100-150GB. \\r\\n• JIKA TERKENA FUP, TEMBAK ULANG PAKET XTRA UNLIMITED TURBO INI MAKA FUP AKAN RESET.\\r\\n• <b>SEDIAKAN PULSA MINIMAL RP. 25.000 AKAN TERPOTONG</b>\\r\\n• TERDAPAT FEE WEB\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"MTJLR28vN3VpUmxObFdHelZwRnVUUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"XLUNLITURBOYOUTUBEXC\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Unlimited Turbo YouTube untuk Xtra Combo Bisa Langsung Beli Tanpa Gandeng - Metode Qris/DANA\\r\\n\",\n            \"package_description_show\": \"• <b>Bisa Langsung dibeli Tanpa Gandeng</b>\\r\\n• Bonus Ini Akan Mengikuti Sisa Masa Aktif Paket Xtra Combo Saat Ini.\\r\\n• Tidak Dapat Diakumulasi.\\r\\n• Tidak Ada Sms Notifikasi, Langsung Cek Myxl Secara Berkala Untuk Cek Paketnya.\\r\\n• Ada Fee Untuk Pembelian Paket Ini.\\r\\n• Sediakan saldo E-wallet Rp25.000\\r\\n• <b>Terdapat Fee Web</b>\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 0,\n            \"harga\": \"Rp. 0\",\n            \"package_id\": \"c1JVVi9BSlQwUGdFYXllOC9lc3dCZw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"6b699877e423e526d8c2502f48ba0a1d\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Flex S Promo - Metode DANA/QRIS\",\n            \"package_description_show\": \"•  Xtra Combo Flex S disc/versi murah.\\r\\n•  Sediakan saldo E-Wallet Dana Rp16.000 (akan terpotong segini)\\r\\n•  Jangan ada Paket Flex lainnya yang aktif.\\r\\n•  Terdapat fee/biaya Admin pembelian paket (tertera).\\r\\n•  Bisa dipakai untuk Claim Addon/Bonus Xtra Combo Flex.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"anNta2NTWEUxZ0h4NlNaZHpHY1pWdw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"97520d9ebea7d72cec0ae29e7b65e1fc\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Plus 10GB Unlimited Produktivitas Seperti Biz Cocok Buat Inject Unlimited - Metode QRIS/DANA\",\n            \"package_description_show\": \"• Xtra Combo Plus 10GB Unlimited Apps Produktivitas.\\r\\n• <mark>TANPA FUP Alias Unlimited Untuk Cocok User Inject VPN.</mark>\\r\\n• Tetap Unlimited walaupun sudah lewat 20GB.\\r\\n• Kartu jangan posisi masa tenggang saat ditembak.\\r\\n• Bisa juga untuk syarat bonus Addon Xtra Combo Plus\\r\\n• Pastikan tidak ada paket Xtra Combo Plus yang aktif\\r\\n• Pastikan unreg via dial *808# > INFO > Info kartu xl ku > Stop Langganan > Unreg Semua Xtra Combo Plus.\\r\\n• Sediakan saldo E-wallet Rp64.000. Klik tombol Bayar/Scan ketika sudah Beli Paket.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 7000,\n            \"harga\": \"Rp. 7.000\",\n            \"package_id\": \"K0hrbEN6V0x2SlgwQzFqWnVtZGdFdw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"24072ce794a78f4c490f2b36678b085b\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Plus 10GB Unlimited Produktivitas Seperti Biz Cocok Buat Inject Unlimited- Metode Pulsa\",\n            \"package_description_show\": \"• Xtra Combo Plus 10GB Unlimited Apps Produktivitas.\\r\\n• <mark>TANPA FUP Alias Unlimited Untuk Cocok User Inject VPN.</mark>\\r\\n• Tetap Unlimited walaupun sudah lewat 20GB.\\r\\n• Kartu jangan posisi masa tenggang saat ditembak.\\r\\n• Bisa juga untuk syarat bonus Addon Xtra Combo Plus\\r\\n• Pastikan tidak ada paket Xtra Combo Plus yang aktif\\r\\n• Pastikan unreg via dial *808# > INFO > Info kartu xl ku > Stop Langganan > Unreg Semua Xtra Combo Plus.\\r\\n• Sediakan Pulsa Rp64.000 di Kartu.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 7000,\n            \"harga\": \"Rp. 7.000\",\n            \"package_id\": \"RERua1pEL20rWTY5Y29tV0xKc3J3QQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"62a49f0f7585e542fc195914ee11d2de\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Plus 5GB - Metode Qris/Dana\",\n            \"package_description_show\": \"• Cocok Untuk Syarat Bonus Addon Xtra Combo Plus\\r\\n•  Pastikan tidak ada paket Xtra Combo Plus yang sedang aktif di kartu XL kamu. Jika ada, unreg via dial *808#\\r\\n• Sediakan Saldo e-Wallet 28.000 (Akan terpotong segini). Klik tombol Bayar ketika sudah Beli Paket.\\r\\n•  Terdapat fee/biaya Admin\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"WE5Rc3ZGVC80MDB4WmN6YTFtb0NLZw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"cae84e917d1da32a00d20b388b1b883b\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Xtra Combo Plus 5GB - Metode Pulsa\",\n            \"package_description_show\": \"• Cocok Untuk Syarat Bonus Addon Xtra Combo Plus\\r\\n•  Pastikan tidak ada paket Xtra Combo Plus yang sedang aktif di kartu XL kamu. Jika ada, unreg via dial *808#\\r\\n• Sediakan Pulsa 28.000 (Akan terpotong segini). Klik tombol Bayar ketika sudah Beli Paket.\\r\\n•  Terdapat fee/biaya Admin\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 3500,\n            \"harga\": \"Rp. 3.500\",\n            \"package_id\": \"VnpiSG0weVJ6WmNPWG42dzQ1LzNwZw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_WA_10GB_3K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus WhatsApp 10GB - Metode QRIS/DANA\",\n            \"package_description_show\": \"?  Bonus Kuota 10gb Whatsapp Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"Ykd5SG1kT0RSTXZXNVdBb0k2MWorUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_WA_10GB_3K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus WhatsApp 10GB - Metode Pulsa\",\n            \"package_description_show\": \"?  Bonus Kuota 10gb Whatsapp Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"SGNGc1E3Wm4xVWxxYnlRekRJaGdkUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_FB_10GB_3K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Facebook 10GB - Metode QRIS/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Facebook Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"a1JXZWRBVkMvdHRxd1VscXR4cXl3UQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_FB_10GB_3K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Facebook 10GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Facebook Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"RVNTVm1LY1pxQUdBcXlkYnJRUXJNdw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_IG_10GB_3K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Instagram 10GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Instagram Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"cE9rVCtlZnlsY28rbDF5Ykx5bk9idw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_IG_10GB_3K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Instagram 10GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Instagram Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"ajNVQWVUbTYwYUNHOWNlb203Y1Nydw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_TT_10GB_3K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus TikTok 10GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Tiktok Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"b1EwNGwvRld4dVZQSlZ2UFFtUmREUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_TT_10GB_3K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus TikTok 10GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 10gb Tiktok Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.3.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"aXorZ0RUTWw4THRhOGxkQ2E2Uy9Mdw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_WA_15GB_5K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Addon Bonus Kuota Xtra Combo Plus/VIP Plus WhatsApp 15GB - Metode QRIS/DANA\",\n            \"package_description_show\": \"?  Bonus Kuota 15gb Whatsapp Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"Zyt2OVNJdlFRVHRsWjBrTVZNSlZ1QQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_WA_15GB_5K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus WhatsApp 15GB - Metode Pulsa\",\n            \"package_description_show\": \"?  Bonus Kuota 15gb Whatsapp Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"elFnN1Z5UzVQQkpESjRlT1pLbHNidw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_FB_15GB_5K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Facebook 15GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Facebook Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"T1lTMllmanYySVpkYUlZMDhGRkQ0QQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_FB_15GB_5K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Facebook 15GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Facebook Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"WXVZUGVpL1VFaVJ2Zy9VdTRlbWhlUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_IG_15GB_5K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Instagram 15GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Instagram Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"eFlTdS9ZRW1VRnM3WVBuc2NseitrQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_IG_15GB_5K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus Instagram 15GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Instagram Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"a09SekFubG1lNFdjQ3NHZDB0alFHQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_TT_15GB_5K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus TikTok 15GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Tiktok Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"ZldiT21pa21XSHFxM3p0L0NDekFudw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_TT_15GB_5K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus TikTok 15GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Tiktok Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"QjdLbmR2bFNqTUY1VkhGL2IyZmdZZw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_YT_15GB_5K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus YouTube 15GB - Metode Qris/Dana\",\n            \"package_description_show\": \"? Bonus Kuota 15gb YouTube Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"TUlHUi9uQVJzSS9rVU5BODd0bUxTUQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_YT_15GB_5K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus YouTube 15GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb YouTube Paket Xtra Combo Plus/xtra Combo Vip Plus\\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel\\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.5.000\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"1\",\n            \"harga_int\": 1000,\n            \"harga\": \"Rp. 1.000\",\n            \"package_id\": \"ZnZBN2xnMVZ6OVFodGViOW0yUG1tQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_GAMES_15GB_7K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Games Mobile Legends, Free Fire, PUBG Masing\\\" 5GB - Metode e-Wallet\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Games Mobile Legends, Free Fire, PUBG Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"QjZ3K3l5K0c2TFdZdURyRStRT2U2Zw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_GAMES_15GB_7K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Games Mobile Legends, Free Fire, PUBG Masing\\\" 5GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Games Mobile Legends, Free Fire, PUBG Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"bHgzTFpaYnNXSGU3OURLVWJnQjhoUQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_SOCMED_15GB_7K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Social Media Spotify, Instagram, TikTok Masing\\\" 5GB - Metode e-Wallet\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Social Media Spotify, Instagram, Tiktok Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"MkorL0tBOThDT3BTRC9SeWY4R20wQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_SOCMED_15GB_7K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Social Media Spotify, Instagram, TikTok Masing\\\" 5GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Social Media Spotify, Instagram, Tiktok Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"bUQ3NnlVVTM3dUtwNzdVNEFDUW5mZw\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_STREAMING_15GB_7K_D\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Streaming Iflix, Viu, YouTube Masing\\\" 5GB - Metode e-Wallet\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Social Media Iflix, Viu, YouTube Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Saldo E-wallet Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"K25jRGYvL2ZGSngrbVpPL3FIVkNoZw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"ADN_XCP_STREAMING_15GB_7K_P\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Bonus Kuota Xtra Combo Plus/VIP Plus 15GB Streaming Iflix, Viu, YouTube Masing\\\" 5GB - Metode Pulsa\",\n            \"package_description_show\": \"? Bonus Kuota 15gb Social Media Iflix, Viu, YouTube Masing\\\" 5GB Untuk Xtra Combo Plus/Xtra Combo Vip Plus. \\r\\n✔️ Bisa Gandeng Xtra Combo Plus 5gb/10gb Produktivitas Di Panel \\r\\n✅ Harus Ada Paket Xtra Combo Plus/Xtra Combo Vip Plus.\\r\\n✅ Masa Aktif Bonus Paket Mengikuti Sisa Masa Aktif Paket Xtra Combo Plus/xtra Combo Vip Plus.\\r\\n✅ Tidak Bisa Diakumulasi, Jika Membeli Ulang Maka Kuota Akan Tereset.\\r\\n✅ Sediakan Pulsa Minimal Rp.7.500\\r\\n‼️ Jika Tidak Dapat Dibeli Erorr, Silakan Coba Secara Berkala.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 1500,\n            \"harga\": \"Rp. 1.500\",\n            \"package_id\": \"MmdZWGhuVjBEQ2IwNnpxT2h5bkxvQQ\",\n            \"payment_method\": [\n                \"PULSA\"\n            ]\n        },\n        {\n            \"package_code\": \"ce6a05ce7c0b47b7cfb5412e58b6222f\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Xtra Combo Lite - YouTube, Facebook, Instagram FUP 190GB - DANA\",\n            \"package_description_show\": \"- Wajib punya paket Xtra Combo Lite.\\r\\n- Jika tidak bisa dibeli, silakan coba lagi terus dalam beberapa menit (harus sabar).\\r\\n- JIKA MASIH BELUM BISA DAN PEMBAYARAN ANDA DI-REFUND OLEH XL, CEK VIA DIAL *808# pergi ke menu Stop Paket/Langganan. Pastikan tidak ada paket Addon Combo Lite sebelumnya yang masih nyangkut. Jika ada, unreg dulu addonnya. Tidak bisa diunreg? Terpaksa ganti kartu lainnya. Mungkin untuk alternatif trik lainnya kamu bisa pakai paket xtra combo plus + Addon 22GB Vidio/FB/IG/YouTube (bisa dibeli sepuasnya).\\r\\n- Membutuhkan Saldo E-wallet Dana Rp6.000 (akan terpotong segini).\\r\\n- Klik tombol \\\"Bayar\\\" setelah beli paket.\\r\\n- Tidak bisa digabung dengan Addon Xtra Combo Lite varian lainnya, harap unreg dulu via dial *808# jika ada.\\r\\n- Masa aktif paket ini akan mengikuti sisa masa aktif paket Xtra Combo Lite saat ini.\\r\\n- FUP 190GB. Tidak dapat diakumulasi. Jika kamu membelinya ulang sebelum FUP habis maka kuota FUP akan tereset ke posisi semula.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"R0tlSWZ4SmRhY0ozRGd5dURZS3lFQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"49d1e047f7fc09be77dcb1bb2d4393cd\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Xtra Combo Lite - Iflix, Facebook, Instagram FUP 190GB - DANA\",\n            \"package_description_show\": \"- Wajib punya paket Xtra Combo Lite.\\r\\n- Jika tidak bisa dibeli, silakan coba lagi terus dalam beberapa menit (harus sabar).\\r\\n- JIKA MASIH BELUM BISA DAN PEMBAYARAN ANDA DI-REFUND OLEH XL, CEK VIA DIAL *808# pergi ke menu Stop Paket/Langganan. Pastikan tidak ada paket Addon Combo Lite sebelumnya yang masih nyangkut. Jika ada, unreg dulu addonnya. Tidak bisa diunreg? Terpaksa ganti kartu lainnya. Mungkin untuk alternatif trik lainnya kamu bisa pakai paket xtra combo plus + Addon 22GB Vidio/FB/IG/YouTube (bisa dibeli sepuasnya).\\r\\n- Bisa untuk Inject SSH/VPN area Jabar, Banten, Jakarta, dan Sumatera ( Yang tau-tau aja :v )\\r\\n- Tidak bisa digabung dengan Addon Xtra Combo Lite varian lainnya, harap unreg dulu via dial *808# jika ada.\\r\\n- Membutuhkan Saldo E-wallet Dana Rp6.000 (akan terpotong segini).\\r\\n- Klik tombol \\\"Bayar\\\" setelah beli paket.\\r\\n- Masa aktif paket ini akan mengikuti sisa masa aktif paket Xtra Combo Lite saat ini.\\r\\n- FUP 190GB. Tidak dapat diakumulasi. Jika kamu membelinya ulang sebelum FUP habis maka kuota FUP akan tereset ke posisi semula.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"TjJJNFlsTjgrcDNKYlN1SW84L3FqQQ\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"7edb228a26f1cdb8691d2fc23d75766e\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Xtra Combo Lite - Vidio, Facebook, Instagram FUP 190GB - DANA\",\n            \"package_description_show\": \"- Wajib punya paket Xtra Combo Lite.\\r\\n- Jika tidak bisa dibeli, silakan coba lagi terus dalam beberapa menit (harus sabar).\\r\\n- JIKA MASIH BELUM BISA DAN PEMBAYARAN ANDA DI-REFUND OLEH XL, CEK VIA DIAL *808# pergi ke menu Stop Paket/Langganan. Pastikan tidak ada paket Addon Combo Lite sebelumnya yang masih nyangkut. Jika ada, unreg dulu addonnya. Tidak bisa diunreg? Terpaksa ganti kartu lainnya. Mungkin untuk alternatif trik lainnya kamu bisa pakai paket xtra combo plus + Addon 22GB Vidio/FB/IG/YouTube (bisa dibeli sepuasnya).\\r\\n- Klik tombol \\\"Bayar\\\" setelah beli paket.\\r\\n- Bisa untuk Inject SSH/VPN ( Yang tau-tau aja :v )\\r\\n- Tidak bisa digabung dengan Addon Xtra Combo Lite varian lainnya, harap unreg dulu via dial *808# jika ada.\\r\\n- Membutuhkan Saldo E-wallet Dana Rp6.000 (akan terpotong segini).\\r\\n- Masa aktif paket ini akan mengikuti sisa masa aktif paket Xtra Combo Lite saat ini.\\r\\n- FUP 190GB. Tidak dapat diakumulasi. Jika kamu membelinya ulang sebelum FUP habis maka kuota FUP akan tereset ke posisi semula.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"OXpiUDBLZytXdDQ3R0l5aGlwRVladw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"dac06dd11e66ae88c09d43f8866ddd5e\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Xtra Combo Lite Viu, Facebook, Instagram FUP 190GB - DANA\",\n            \"package_description_show\": \"- <b>Wajib punya paket Xtra Combo Lite</b>.\\r\\n- Jika tidak bisa dibeli, silakan coba lagi terus dalam beberapa menit (harus sabar).\\r\\n- JIKA MASIH BELUM BISA DAN PEMBAYARAN ANDA DI-REFUND OLEH XL, CEK VIA DIAL *808# pergi ke menu Stop Paket/Langganan. Pastikan tidak ada paket Addon Combo Lite sebelumnya yang masih nyangkut. Jika ada, unreg dulu addonnya. Tidak bisa diunreg? Terpaksa ganti kartu lainnya. Mungkin untuk alternatif trik lainnya kamu bisa pakai paket xtra combo plus + Addon 22GB Vidio/FB/IG/YouTube (bisa dibeli sepuasnya).\\r\\n- Membutuhkan Saldo E-wallet Dana Rp6.000 (akan terpotong segini).\\r\\n- Klik tombol \\\"Bayar\\\" setelah beli paket.\\r\\n- Tidak bisa digabung dengan Addon Xtra Combo Lite varian lainnya, harap unreg dulu via dial *808# jika ada.\\r\\n- Masa aktif paket ini akan mengikuti sisa masa aktif paket Xtra Combo Lite saat ini.\\r\\n- FUP 190GB. Tidak dapat diakumulasi. Jika kamu membelinya ulang sebelum FUP habis maka kuota FUP akan tereset ke posisi semula.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"SG1rejY1UnBsTDh6TlZkNlhOOHp1dw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        },\n        {\n            \"package_code\": \"e4b9610293057bf3bc0bc35288e22faa\",\n            \"jenis\": \"otp\",\n            \"package_name_show\": \"Addon Xtra Combo Lite Netflix, Facebook, Instagram FUP 190GB - DANA\",\n            \"package_description_show\": \"- <b>Wajib punya paket Xtra Combo Lite</b>.\\r\\n- Jika tidak bisa dibeli, silakan coba lagi terus dalam beberapa menit (harus sabar).\\r\\n- JIKA MASIH BELUM BISA DAN PEMBAYARAN ANDA DI-REFUND OLEH XL, CEK VIA DIAL *808# pergi ke menu Stop Paket/Langganan. Pastikan tidak ada paket Addon Combo Lite sebelumnya yang masih nyangkut. Jika ada, unreg dulu addonnya. Tidak bisa diunreg? Terpaksa ganti kartu lainnya. Mungkin untuk alternatif trik lainnya kamu bisa pakai paket xtra combo plus + Addon 22GB Vidio/FB/IG/YouTube (bisa dibeli sepuasnya).\\r\\n- Membutuhkan Saldo E-wallet Dana Rp6.000 (akan terpotong segini).\\r\\n- Klik tombol \\\"Bayar\\\" setelah beli paket.\\r\\n- Tidak bisa digabung dengan Addon Xtra Combo Lite varian lainnya, harap unreg dulu via dial *808# jika ada.\\r\\n- Masa aktif paket ini akan mengikuti sisa masa aktif paket Xtra Combo Lite saat ini.\\r\\n- FUP 190GB. Tidak dapat diakumulasi. Jika kamu membelinya ulang sebelum FUP habis maka kuota FUP akan tereset ke posisi semula.\",\n            \"metode\": 1,\n            \"unik\": null,\n            \"no_need_login\": \"0\",\n            \"can_multi_trx\": \"0\",\n            \"harga_int\": 500,\n            \"harga\": \"Rp. 500\",\n            \"package_id\": \"RXQ5V09yTWFqUDJubUZBaGpab1dZZw\",\n            \"payment_method\": [\n                \"DANA\",\n                \"QRIS\"\n            ]\n        }\n    ]\n}"
 						}
 					]
 				},
@@ -447,11 +447,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/list_paket?nadiastore={{key_anda}}&jenis=unreg",
+							"raw": "https://api.VSTRA.my.id/v2/list_paket?VSTRA={{key_anda}}&jenis=unreg",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -461,7 +461,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"description": "key anda"
 								},
@@ -480,11 +480,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/list_paket?hesdastore={{key_anda}}&jenis=unreg",
+									"raw": "https://api.hesda-.com/v2/list_paket?hesda={{key_anda}}&jenis=unreg",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -493,7 +493,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}",
 											"description": "key anda"
 										},
@@ -535,7 +535,7 @@
 								},
 								{
 									"key": "cache-control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "pragma",
@@ -612,11 +612,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/detail_paket?nadiastore={{key_anda}}&access_token=815783:214e6936-bcca-428f-81fb-347a95e00s",
+							"raw": "https://api.VSTRA.my.id/v2/detail_paket?VSTRA={{key_anda}}&access_token=815783:214e6936-bcca-428f-81fb-347a95e00s",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -626,7 +626,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}"
 								},
 								{
@@ -644,11 +644,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/detail_paket?hesdastore={{key_anda}}&access_token=815783:214e6936-bcca-428f-81fb-347a95e00ba1",
+									"raw": "https://api.hesda-.com/v2/detail_paket?hesda={{key_anda}}&access_token=815783:214e6936-bcca-428f-81fb-347a95e00ba1",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -657,7 +657,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}"
 										},
 										{
@@ -697,7 +697,7 @@
 								},
 								{
 									"key": "cache-control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "pragma",
@@ -774,11 +774,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/cek_stok_akrab?nadiastore={{key_anda}}",
+							"raw": "https://api.VSTRA.my.id/v2/cek_stok_akrab?VSTRA={{key_anda}}",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -788,7 +788,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"description": "ganti value dengan key anda"
 								}
@@ -802,11 +802,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/cek_stok_akrab?hesdastore=key_anda",
+									"raw": "https://api.hesda-.com/v2/cek_stok_akrab?hesda=key_anda",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -815,7 +815,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "key_anda"
 										}
 									]
@@ -843,7 +843,7 @@
 								},
 								{
 									"key": "Cache-Control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "Pragma",
@@ -900,7 +900,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -948,11 +948,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/beli/otp",
+							"raw": "https://api.VSTRA.my.id/v2/beli/otp",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -974,7 +974,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}",
 											"type": "text"
 										},
@@ -1005,11 +1005,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/beli/otp",
+									"raw": "https://api.hesda-.com/v2/beli/otp",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -1049,7 +1049,7 @@
 								},
 								{
 									"key": "Cache-Control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "Pragma",
@@ -1096,7 +1096,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}",
 											"type": "text"
 										},
@@ -1127,11 +1127,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/beli/otp",
+									"raw": "https://api.hesda-.com/v2/beli/otp",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -1171,7 +1171,7 @@
 								},
 								{
 									"key": "Cache-Control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "Pragma",
@@ -1235,7 +1235,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "key_anda",
 									"type": "text"
 								},
@@ -1271,11 +1271,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/unreg",
+							"raw": "https://api.VSTRA.my.id/v2/unreg",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -1296,7 +1296,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}",
 											"type": "text"
 										},
@@ -1323,11 +1323,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/unreg",
+									"raw": "https://api.hesda-.com/v2/unreg",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -1358,7 +1358,7 @@
 								},
 								{
 									"key": "Cache-Control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "Pragma",
@@ -1410,7 +1410,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -1447,11 +1447,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/beli/nonotp",
+							"raw": "https://api.VSTRA.my.id/v2/beli/nonotp",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -1473,7 +1473,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}",
 											"type": "text"
 										},
@@ -1504,11 +1504,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/beli/nonotp",
+									"raw": "https://api.hesda-.com/v2/beli/nonotp",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -1548,7 +1548,7 @@
 								},
 								{
 									"key": "cache-control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "pragma",
@@ -1607,7 +1607,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}",
 											"type": "text"
 										},
@@ -1638,11 +1638,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/beli/nonotp",
+									"raw": "https://api.hesda-.com/v2/beli/nonotp",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -1682,7 +1682,7 @@
 								},
 								{
 									"key": "cache-control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "pragma",
@@ -1741,7 +1741,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}",
 											"type": "text"
 										},
@@ -1772,11 +1772,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/beli/nonotp",
+									"raw": "https://api.hesda-.com/v2/beli/nonotp",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -1816,7 +1816,7 @@
 								},
 								{
 									"key": "cache-control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "pragma",
@@ -1889,11 +1889,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/cekStatus?nadiastore={{key_anda}}&trx_id=ZePOY0jgJK-YzYzYUVKMXRLVW5KSVNTZlRjSzNBQQ-1742135411-YKQdIrNXeu",
+							"raw": "https://api.VSTRA.my.id/v2/cekStatus?VSTRA={{key_anda}}&trx_id=ZePOY0jgJK-YzYzYUVKMXRLVW5KSVNTZlRjSzNBQQ-1742135411-YKQdIrNXeu",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -1903,7 +1903,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}"
 								},
 								{
@@ -1922,11 +1922,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/cekStatus?hesdastore={{key_anda}}&trx_id=YD6LewdDpF-UExKUTFlUGs5aXpIbWR2M0F0aHZZQQ-1741839822-Gl4k4aEXna",
+									"raw": "https://api.hesda-.com/v2/cekStatus?hesda={{key_anda}}&trx_id=YD6LewdDpF-UExKUTFlUGs5aXpIbWR2M0F0aHZZQQ-1741839822-Gl4k4aEXna",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -1935,7 +1935,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}"
 										},
 										{
@@ -1967,7 +1967,7 @@
 								},
 								{
 									"key": "Cache-Control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "Pragma",
@@ -1999,11 +1999,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/cekStatus?hesdastore={{key_anda}}&trx_id=ZePOY0jgJK-YzYzYUVKMXRLVW5KSVNTZlRjSzNBQQ-1742135411-YKQdIrNXeu",
+									"raw": "https://api.hesda-.com/v2/cekStatus?hesda={{key_anda}}&trx_id=ZePOY0jgJK-YzYzYUVKMXRLVW5KSVNTZlRjSzNBQQ-1742135411-YKQdIrNXeu",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -2012,7 +2012,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}"
 										},
 										{
@@ -2053,7 +2053,7 @@
 								},
 								{
 									"key": "cache-control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "pragma",
@@ -2113,11 +2113,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/cekStatus?hesdastore={{key_anda}}&trx_id=2883c154-52f0-4443-afc1-eb655b10a2aa",
+									"raw": "https://api.hesda-.com/v2/cekStatus?hesda={{key_anda}}&trx_id=2883c154-52f0-4443-afc1-eb655b10a2aa",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -2126,7 +2126,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}"
 										},
 										{
@@ -2167,7 +2167,7 @@
 								},
 								{
 									"key": "cache-control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "pragma",
@@ -2256,7 +2256,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"description": "key anda",
 									"type": "text"
@@ -2275,11 +2275,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/get_otp",
+							"raw": "https://api.VSTRA.my.id/v2/get_otp",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -2299,7 +2299,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}",
 											"type": "text"
 										},
@@ -2316,11 +2316,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/get_otp",
+									"raw": "https://api.hesda-.com/v2/get_otp",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -2351,7 +2351,7 @@
 								},
 								{
 									"key": "Cache-Control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "Pragma",
@@ -2386,7 +2386,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}",
 											"description": "key anda",
 											"type": "text"
@@ -2405,11 +2405,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/get_otp",
+									"raw": "https://api.hesda-.com/v2/get_otp",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -2448,7 +2448,7 @@
 								},
 								{
 									"key": "Cache-Control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "Pragma",
@@ -2512,7 +2512,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -2539,11 +2539,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/login_sms",
+							"raw": "https://api.VSTRA.my.id/v2/login_sms",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -2563,7 +2563,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}",
 											"type": "text"
 										},
@@ -2590,11 +2590,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/login_sms",
+									"raw": "https://api.hesda-.com/v2/login_sms",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -2625,7 +2625,7 @@
 								},
 								{
 									"key": "Cache-Control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "Pragma",
@@ -2678,11 +2678,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/cek_sesi_login?nadiastore={{key_anda}}&no_hp=087762883268",
+							"raw": "https://api.VSTRA.my.id/v2/cek_sesi_login?VSTRA={{key_anda}}&no_hp=087762883268",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -2692,7 +2692,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}"
 								},
 								{
@@ -2709,11 +2709,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/cek_sesi_login?hesdastore={{key_anda}}&no_hp=0878832969090",
+									"raw": "https://api.hesda-.com/v2/cek_sesi_login?hesda={{key_anda}}&no_hp=0878832969090",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -2722,7 +2722,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}"
 										},
 										{
@@ -2767,7 +2767,7 @@
 								},
 								{
 									"key": "cache-control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "pragma",
@@ -2827,11 +2827,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/cek_sesi_login?hesdastore={{key_anda}}&no_hp=087762883268",
+									"raw": "https://api.hesda-.com/v2/cek_sesi_login?hesda={{key_anda}}&no_hp=087762883268",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -2840,7 +2840,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}"
 										},
 										{
@@ -2880,7 +2880,7 @@
 								},
 								{
 									"key": "Cache-Control",
-									"value": "no-store, no-cache, must-revalidate"
+									"value": "no-, no-cache, must-revalidate"
 								},
 								{
 									"key": "Pragma",
@@ -2946,11 +2946,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/list_paket?nadiastore={{key_anda}}&jenis=bes",
+							"raw": "https://api.VSTRA.my.id/v2/list_paket?VSTRA={{key_anda}}&jenis=bes",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -2960,7 +2960,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}"
 								},
 								{
@@ -2979,11 +2979,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/list_paket?hesdastore={{key_anda}}&jenis=bes",
+									"raw": "https://api.hesda-.com/v2/list_paket?hesda={{key_anda}}&jenis=bes",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -2992,7 +2992,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}"
 										},
 										{
@@ -3015,11 +3015,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/list_paket?hesdastore={{key_anda}}&jenis=bes",
+									"raw": "https://api.hesda-.com/v2/list_paket?hesda={{key_anda}}&jenis=bes",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -3028,7 +3028,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}"
 										},
 										{
@@ -3058,11 +3058,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/list_paket?hesdastore={{key_anda}}&jenis=invite",
+									"raw": "https://api.hesda-.com/v2/list_paket?hesda={{key_anda}}&jenis=invite",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -3071,7 +3071,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}"
 										},
 										{
@@ -3121,7 +3121,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "key_anda",
 									"type": "text"
 								},
@@ -3146,11 +3146,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/akrab/addPengelola",
+							"raw": "https://api.VSTRA.my.id/v2/akrab/addPengelola",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -3171,7 +3171,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "{{key_anda}}",
 											"description": "apikey anda",
 											"type": "text"
@@ -3191,11 +3191,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/akrab/addPengelola",
+									"raw": "https://api.hesda-.com/v2/akrab/addPengelola",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -3242,11 +3242,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/akrab/pengelola?nadiastore=key anda",
+							"raw": "https://api.VSTRA.my.id/v2/akrab/pengelola?VSTRA=key anda",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -3257,7 +3257,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "key anda",
 									"description": "API key anda"
 								}
@@ -3271,7 +3271,7 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "{{url_production}}akrab/pengelola?hesdastore=key anda",
+									"raw": "{{url_production}}akrab/pengelola?hesda=key anda",
 									"host": [
 										"{{url_production}}akrab"
 									],
@@ -3280,7 +3280,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "key anda"
 										}
 									]
@@ -3326,7 +3326,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -3339,11 +3339,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/akrab/deletePengelola",
+							"raw": "https://api.VSTRA.my.id/v2/akrab/deletePengelola",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -3364,7 +3364,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "key_anda",
 											"type": "text"
 										},
@@ -3376,11 +3376,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/akrab/deletePengelola",
+									"raw": "https://api.hesda-.com/v2/akrab/deletePengelola",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -3427,11 +3427,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/akrab/detailPengelola?nadiastore=keyanda&parent_msisdn=087883296424",
+							"raw": "https://api.VSTRA.my.id/v2/akrab/detailPengelola?VSTRA=keyanda&parent_msisdn=087883296424",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -3442,7 +3442,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "keyanda"
 								},
 								{
@@ -3460,11 +3460,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/akrab/detailPengelola?hesdastore=keyanda&parent_msisdn=087883296424",
+									"raw": "https://api.hesda-.com/v2/akrab/detailPengelola?hesda=keyanda&parent_msisdn=087883296424",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -3474,7 +3474,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "keyanda"
 										},
 										{
@@ -3525,7 +3525,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -3586,11 +3586,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/akrab/inviteMember",
+							"raw": "https://api.VSTRA.my.id/v2/akrab/inviteMember",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -3611,7 +3611,7 @@
 									"mode": "formdata",
 									"formdata": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "",
 											"description": "apikey anda",
 											"type": "text"
@@ -3667,11 +3667,11 @@
 									]
 								},
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/akrab/inviteMember",
+									"raw": "https://api.hesda-.com/v2/akrab/inviteMember",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -3718,11 +3718,11 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/akrab/cekKuota?nadiastore=keyanda&parent_msisdn=6287883296922&family_member_id_invited=MJWh0rPIRVvwenAb5q0LuAqR2K2xO0%2BiCbqPqcwQhPNiflN9k8ODj7uA6nySDDgcoFxT%2FI2CEhOh4h%2Fx8RHRqTlqiX%2FLJNZ3dd7ZBj6Qvn6jmktH%2BM48h5NYcr8nxE4dn2l%2FuiSDUvAIkB7aTo6UtGBdD4YnoU7OP5lam910LDE%3D",
+							"raw": "https://api.VSTRA.my.id/v2/akrab/cekKuota?VSTRA=keyanda&parent_msisdn=6287883296922&family_member_id_invited=MJWh0rPIRVvwenAb5q0LuAqR2K2xO0%2BiCbqPqcwQhPNiflN9k8ODj7uA6nySDDgcoFxT%2FI2CEhOh4h%2Fx8RHRqTlqiX%2FLJNZ3dd7ZBj6Qvn6jmktH%2BM48h5NYcr8nxE4dn2l%2FuiSDUvAIkB7aTo6UtGBdD4YnoU7OP5lam910LDE%3D",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -3733,7 +3733,7 @@
 							],
 							"query": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "keyanda"
 								},
 								{
@@ -3754,11 +3754,11 @@
 								"method": "GET",
 								"header": [],
 								"url": {
-									"raw": "https://api.hesda-store.com/v2/akrab/cekKuota?hesdastore=keyanda&parent_msisdn=6287883296969&family_member_id_invited=MJWh0rPIRVvwenAb5q0LuAqR2K2xO0%2BiCbqPqcwQhPNiflN9k8ODj7uA6nySDDgcoFxT%2FI2CEhOh4h%2Fx8RHRqTlqiX%2FLJNZ3dd7ZBj6Qvn6jmktH%2BM48h5NYcr8nxE4dn2l%2FuiSDUvAIkB7aTo6UtGBdD4YnoU7OP5lam910LDE%3D",
+									"raw": "https://api.hesda-.com/v2/akrab/cekKuota?hesda=keyanda&parent_msisdn=6287883296969&family_member_id_invited=MJWh0rPIRVvwenAb5q0LuAqR2K2xO0%2BiCbqPqcwQhPNiflN9k8ODj7uA6nySDDgcoFxT%2FI2CEhOh4h%2Fx8RHRqTlqiX%2FLJNZ3dd7ZBj6Qvn6jmktH%2BM48h5NYcr8nxE4dn2l%2FuiSDUvAIkB7aTo6UtGBdD4YnoU7OP5lam910LDE%3D",
 									"protocol": "https",
 									"host": [
 										"api",
-										"hesda-store",
+										"hesda-",
 										"com"
 									],
 									"path": [
@@ -3768,7 +3768,7 @@
 									],
 									"query": [
 										{
-											"key": "hesdastore",
+											"key": "hesda",
 											"value": "keyanda"
 										},
 										{
@@ -3822,7 +3822,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -3847,11 +3847,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/akrab/setKuota",
+							"raw": "https://api.VSTRA.my.id/v2/akrab/setKuota",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -3915,7 +3915,7 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "nadiastore",
+								"key": "VSTRA",
 								"value": "{{key_anda}}",
 								"description": "API Key anda",
 								"type": "text"
@@ -3934,11 +3934,11 @@
 							}
 						],
 						"url": {
-							"raw": "https://api.melinda-store.my.id/v2/akrab/kickAnggota",
+							"raw": "https://api.VSTRA.my.id/v2/akrab/kickAnggota",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"id"
 							],
@@ -4005,7 +4005,7 @@
 							"mode": "formdata",
 							"formdata": [
 								{
-									"key": "nadiastore",
+									"key": "VSTRA",
 									"value": "{{key_anda}}",
 									"type": "text"
 								},
@@ -4030,11 +4030,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://api.melinda-store.my.ids/v2/akrab/beliSlot",
+							"raw": "https://api.VSTRA.my.ids/v2/akrab/beliSlot",
 							"protocol": "https",
 							"host": [
 								"api",
-								"melinda-store",
+								"VSTRA",
 								"my",
 								"ids"
 							],
@@ -4080,7 +4080,7 @@
 	"variable": [
 		{
 			"key": "url_production",
-			"value": "https://api.melinda-store.com/v2/",
+			"value": "https://api.VSTRA.com/v2/",
 			"type": "string"
 		},
 		{
