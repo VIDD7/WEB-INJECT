@@ -1,4 +1,4 @@
-🌐  API Melinda Store
+🌐  API
 
 ✅ Auth Basic Menggunakan Email & Password
 ✅ Menggunakan Apikey Yang Didapat Dari Admin
